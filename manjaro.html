@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .angry-grid {
+           display: grid; 
+        
+           grid-template-rows: 1fr 1fr 1fr;
+           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+           
+           gap: 10px;
+           height: 100%;
+           
+        }
+          
+        #item-0 {
+        
+           background-color: #5BBBC7; 
+           grid-row-start: 1;
+           grid-column-start: 1;
+        
+           grid-row-end: 4;
+           grid-column-end: 2;
+           width: 100px;
+           height: 500px;   
+        }
+        #item-1 {
+        
+           background-color: #99B6B6; 
+           grid-row-start: 2;
+           grid-column-start: 2;
+        
+           grid-row-end: 4;
+           grid-column-end: 3;
+           width: 100px;
+           height: 500px; 
+           
+        }
+        #item-2 {
+        
+           background-color: #69AC7D; 
+           grid-row-start: 1;
+           grid-column-start: 3;
+        
+           grid-row-end: 4;
+           grid-column-end: 4;
+            
+           
+        }
+        #item-3 {
+        
+           background-color: #CF98C9; 
+           grid-row-start: 1;
+           grid-column-start: 2;
+        
+           grid-row-end: 2;
+           grid-column-end: 3;
+           
+        }
+        </style>
+        
+        <div class="angry-grid">
+          <div id="item-0">&nbsp;</div>
+          <div id="item-1">&nbsp;</div>
+          <div id="item-2">&nbsp;</div>
+          <div id="item-3">&nbsp;</div>
+        </div>
+</body>
+</html>
